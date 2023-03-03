@@ -24,7 +24,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/js', (req, res) => {
-    res.status(200).sendFile(path.join(__dirname, '/public/main.js'))
+    res.status(200).sendFile(path.join(__dirname, '/public/index.js'))
 })
 
 app.get('/css', (req, res) => {
