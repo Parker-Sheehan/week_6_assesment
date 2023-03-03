@@ -20,7 +20,7 @@ var rollbar = new Rollbar({
 rollbar.log('Hello world!')
 
 app.get('/', (req, res) => {
-    res.status(200).sendFile(path.join(__dirname, '../public/index.html'))
+    res.status(200).sendFile(path.join(__dirname, '/public/index.html'))
 })
 
 app.get('/css', (req, res) => {
